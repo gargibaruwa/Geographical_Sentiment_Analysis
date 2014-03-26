@@ -1,3 +1,4 @@
+#graph
 df_new <- data.frame(value = c(12,13,21,14,18,18,11,12,24),
                      Movies = c("KungFu Panda","KungFu Panda","KungFu Panda","Life of Pi","Life of Pi","Life of Pi","Endhiran","Endhiran","Endhiran"),
                      classifier = c("Naive Bayes","Recursive Neural Network","Decision Tree","Naive Bayes","Recursive Neural Network","Decision Tree","Naive Bayes","Recursive Neural Network","Decision Tree"))

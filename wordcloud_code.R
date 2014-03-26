@@ -2,7 +2,7 @@
 #the directory should contain only this file and no other file
 movie_review <- Corpus(DirSource("C:/Users/Gargi/Desktop/COURSES/Data mining/PROJECT/Final DM Project/wordcloud"))
 
-#inspect(movie_review)
+
 
 #movie_review <- tm_map(movie_review, stripWhitespace)
 

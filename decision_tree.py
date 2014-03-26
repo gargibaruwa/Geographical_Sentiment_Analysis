@@ -19,11 +19,6 @@ negcutoff_train_dt = len(negfeats)
 poscutoff_train_dt = len(posfeats)
 training_data_dt = negfeats[:negcutoff_train_dt] + posfeats[:poscutoff_train_dt]
 
-'''#commenting out the test data code that was used to find error rate
-negcutoff_test_dt = len(negfeats)*1/5
-poscutoff_test_dt = len(posfeats)*1/5
-test_data_dt = negfeats[:negcutoff_test_dt] + posfeats[:poscutoff_test_dt]
-'''
 
 classifier_dt = DecisionTreeClassifier.train(training_data_dt)
 

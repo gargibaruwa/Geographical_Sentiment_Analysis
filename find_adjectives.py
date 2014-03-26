@@ -5,10 +5,11 @@ from nltk.classify import NaiveBayesClassifier,DecisionTreeClassifier
 from nltk.corpus import movie_reviews
 import nltk.data
 
+
 def words_bag(words):
     return dict([(word,True) for word in words])
 
-#classifier = nltk.data.load('classifiers/movie_reviews_NaiveBayes.pickle')
+
 neg_list = movie_reviews.fileids('neg')
 pos_list = movie_reviews.fileids('pos')
  

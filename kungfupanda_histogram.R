@@ -21,7 +21,7 @@ myplot + theme(panel.background = element_rect(fill='white', colour='black'))
 
 
 
-#Histogram for acutal data
+
 x <- data.frame(
   Class = c("Actual Data","Actual Data"),
   Geography = c("Global","Local"),

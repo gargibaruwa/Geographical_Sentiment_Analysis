@@ -21,7 +21,7 @@ negcutoff_train = len(negfeats)
 poscutoff_train = len(posfeats)
 training_data = negfeats[:negcutoff_train] + posfeats[:poscutoff_train]
 
-'''#commenting out the test data code that was used to find error rate'''
+
 negcutoff_test = len(negfeats)
 poscutoff_test = len(posfeats)
 test_data = negfeats[:negcutoff_test] + posfeats[:poscutoff_test]
